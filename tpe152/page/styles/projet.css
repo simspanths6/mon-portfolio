@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(12, 12, 20);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(137, 141, 141);
+}
+header{
+    color:  rgb(134, 136, 136);
+    margin: 30px 50px;
+
+}
+.nav{
+    border: 50%;
+    float: right;
+}
+.anv{
+    padding: auto;
+    margin: auto;
+}
+ul{
+    display: flex;
+    text-align: right;
+}
+.pnt{
+    text-decoration: none;
+    font-size: 20px;
+    float: inline-end;
+    position: relative;
+    margin: 20px;
+    list-style-type: none;
+}
+
+/*implementation de grid card*/
+.card{
+    margin: 01px 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    grid-template-rows: repeat(3, 7fr);
+
+}
+.box{
+    border-style:solid;
+    border-radius: 10%;
+    /*border-color: rgb(4, 4, 56) ;*/
+    border-color: black;
+    margin: 3%;
+
+}
+.card .box a{
+    text-decoration: none;
+    color: rgb(134, 136, 136); 
+}
+.card .box img{
+    height: max-content;
+    width: 189px;
+    border-radius: 10%;
+
+}
+.card .box a:hover{
+    box-shadow: 2px 2px 4px  rgb(94, 94, 206);
+    transition: 0.5s;
+    
+}
+.card .box a p{
+    text-align: center;
+}
+.box a p::first-letter{
+    text-transform: capitalize;
+}
+.back{
+    font-size: 30px;
+    text-align: center;
+    padding: -30px;
+    padding: 20px;
+}
+.back a{
+    text-decoration: none;
+    color:  rgb(203, 209, 209);
+    margin: 20px;
+    font-size: 30px;
+}
+.back a:hover{
+    color: black;
+    background-color: aqua;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    box-shadow: 03px 03px 02px rgb(9, 57, 80);
+    
+}

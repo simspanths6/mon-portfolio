@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(12, 12, 20);
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+}
+/*mon header*/
+header{
+    color:  rgb(203, 209, 209);
+    margin: 30px 50px;
+}
+.nav{
+    border: 50%;
+    float: right;
+}
+.anv{
+    padding: auto;
+    margin: auto;
+}
+ul{
+    display: flex;
+    text-align: right;
+}
+.pnt{
+    text-decoration: none;
+    font-size: 20px;
+    float: inline-end;
+    position: relative;
+    margin: 20px;
+    list-style-type: none;
+}
+/*mon contenu*/
+
+.divs1{
+    display: flex;
+    margin: 50px 200px;
+}
+.divs2{
+    margin: 10px;
+    padding: px;
+    border-radius: 05%;
+    border-style: solid;
+    border-color: rgb(4, 4, 56) ;
+    box-shadow: 2px 2px 4px  rgb(94, 94, 206);
+    text-align: center;
+}
+.doc{
+    font-size: 40px;
+    margin-bottom: 30%;
+    margin-top: 10%;
+    color:  rgb(203, 209, 209);
+}
+.doc::first-letter{
+    text-transform: uppercase;
+}
+.divs2 .lin{
+    display: list-item;
+    text-align: center;
+    color: rgb(134, 136, 136);
+    list-style-type: none;
+    text-decoration: none;
+    background-color: black; 
+    width: 350px;
+    height: 50px;
+    padding: 20px;
+    margin: 10px ;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lin:hover{
+    color: black;
+    background-color: aqua;
+    transition-duration: 0.5s;
+    box-shadow: 03px 03px 02px rgb(9, 57, 80);
+    
+}
+.coo{
+    font-size: 20px;
+    padding: 20px;
+    color:  rgb(203, 209, 209);
+
+}
+/*lien sur logo*/
+.log-link a img{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+.log-link a img:hover{
+    height: 40px;
+    width: 40px;
+    transition: 0.5s;
+
+}
+
+.divs3{
+    padding: 50px;
+    margin: 50px;
+}
+.divs3 img{
+    width: 350px;
+    height: 350px;
+    border-radius: 100% ;
+}
+#nm{
+    text-transform: capitalize;
+    color:  rgb(203, 209, 209);
+    padding: 10px;
+    margin: 10px;
+}
+.divs3 .txt{
+    text-align: justify;
+    font-style: italic;
+    color:  rgb(203, 209, 209);
+
+}
+.txt::first-letter{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 30px;
+}
+.divs3 img:hover{
+    height: 353px;
+    width: 353px;
+    transition-duration: 1s;
+}

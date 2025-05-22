@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(12, 12, 20);
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(137, 141, 141);;
+}
+h1{
+    font-size: 50px;
+}
+.elt{
+    display: flex;
+    margin: 100px 150px;
+    padding: 10px;
+}
+div .elt1 ,.elt2{
+    padding: 30px;
+    margin: 00px 40px;
+}
+.btn{
+    list-style-type: none;
+    text-align: center;
+    color: rgb(134, 136, 136); ;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: black; 
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    margin: 10px ;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+.btn a:hover{
+    color: black;
+    background-color: aqua;
+    transition-duration: 0.5s;
+    box-shadow: 03px 03px 02px rgb(9, 57, 80);
+    
+}
+.btn a{
+    text-decoration: none;
+    line-height: 50px;
+    color:  rgb(134, 136, 136);;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: black; 
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    margin: 10px ;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.elt2{
+    padding: auto;
+    margin: auto;
+
+}
+.elt2 img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px ;
+}
+.elt2 img:hover{
+    height: 355px;
+    width: 355px;
+    border-radius: 0%;
+    transition: 0.5s;
+}
+.elt2 p{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+.ref::first-letter{
+    text-transform: capitalize;
+}
